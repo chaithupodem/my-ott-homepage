@@ -1,0 +1,156 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #000;
+  color:white;
+  padding: 10px 0;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  text-align: end;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('hero-background.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.cta-button {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+/* Featured section styles */
+.featured {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.featured h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.show-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-card {
+  max-width: 300px;
+  background-color: #ebedeb;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+  
+
+.show-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.bottom{
+  color: white;
+}
+
+.backgroundimg{ 
+  background-image: url("https://i.etsystatic.com/17257718/r/il/c21874/5074686638/il_fullxfull.5074686638_c0vd.jpg");
+  background-size: cover;
+  height: 100%;
+}
+.text{
+  font-style: bebas neue;
+  font-size: 17px;
+}
+.btn{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: #ebedeb;
+  background-color: #e50914;
+  border-width: 0px;
+  font-size: 15px;
+  text-align: center;
+}
+.button{
+  text-align: center;
+  color: #ebedeb;
+}
